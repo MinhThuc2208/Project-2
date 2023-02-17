@@ -256,14 +256,14 @@ header nav a.active{
 }
 
 #collabrator {
-    background-color: #b987d2;
+    background-color: #AA00FF;
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
 .collabratorLogo {
-    max-height: 50px;
-    max-width: 70px;
+    max-height: 100px;
+    max-width: 200px;
     margin-top: 10px;
     /* margin-left: 30px; */
     margin-right: 80px;
@@ -283,7 +283,7 @@ header nav a.active{
 }
 
 #row-footer p {
-    margin-top: 50px;
+    margin-top: 5px;
     margin-bottom: 20px;
     background-color: #333333;
 }

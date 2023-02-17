@@ -23,7 +23,7 @@
 <body>
     <div class="container-fluid" style="padding-left: 0 !important;padding-right: 0 !important;">
         <header class="row shadow">
-            <a href="../html/HomePageSerein.html" class="col-xl-2 col-sm-2 col-md-2 col-lg-2">
+            <a href="../html/HomePageSereinSignIn.html" class="col-xl-2 col-sm-2 col-md-2 col-lg-2">
                 <img src="../img/logo.png" alt="Serein" class="img-fluid img-logo-serein" style="margin-left: 15%;">
             </a>   
             <div class="col-xl-8 col-sm-6 col-md-6 col-lg-8 input-group barSearch">
@@ -49,21 +49,24 @@
                 <input type="text" placeholder="Search" class="form-control txtSearch border border-top border-bottom border-dark" aria-label="seach">
                 <div class="input-group-append">
                     <button class="bg-white input-group-text btnSearch border border-dark">
-                        <a href="../html/searchSerein.html"><i class="fas fa-search" style="outline: none; color: #AA00FF;"></i></a>
+                        <a href="../html/searchSereinSignIn.html"><i class="fas fa-search" style="outline: none; color: #AA00FF;"></i></a>
                     </button>
                 </div>
             </div>
             <div class="col-xl-2 col-sm-4 col-md-4 col-lg-2">
                 <nav class="nav">
                     <div class="nav-item">
-                        <a href="../html/HomePageSerein.html" class="nav-link active h6">Home</a>
+                        <a href="../html/HomePageSereinSignIn.html" class="nav-link active h6">Home</a>
                     </div>
                     <div class="nav-item">
-                        <a href="../html/aboutUs.html" class="nav-link h6">Abouts</a>
+                        <a href="../html/aboutUsSignIn.html" class="nav-link h6">Abouts</a>
                     </div>
-                    <button class="btnDN shadow" style="outline: none;">
-                        <a href="../html/login.html" class="text-white" style="text-decoration: none; outline: none;">
-                            Login
+                    <button class="btnDN shadow">
+                        <a href="../html/AccountUser.html" class="text-white" style="text-decoration: none; outline: none;">
+                            
+                            <span>
+                                <i class="fa fa-user-alt"></i>
+                            </span>
                         </a>
                     </button>
                 </nav>
@@ -75,7 +78,7 @@
                     <script>
                         var course = ["Data Science", "Data Engineer", "Data Analytics", "Business Intelligence", "Business Analytics", "Data Visualization", "Big Data", "Project Manager", "Cloud Computing", "Software Engineer", "Software Tester"]
                         for (var index = 0; index < course.length; index++) {
-                            $(".navbar-nav").append('<li class="nav-item"><a href="../html/searchSerein.html">' + course[index] + '</a></li>')
+                            $(".navbar-nav").append('<li class="nav-item"><a href="../html/searchSereinSignIn.html">' + course[index] + '</a></li>')
                         }
                     </script>
                 </ul>
